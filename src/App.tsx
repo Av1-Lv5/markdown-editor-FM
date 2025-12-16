@@ -10,6 +10,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import SideMenu from "./components/SideMenu";
 import Modal from "./components/Modal";
+import DeleteConfirmModal from "./components/DeleteConfirmModal";
 
 // styles
 import "./styles/App.css";
@@ -57,6 +58,7 @@ function App() {
           <Main />
         </div>
         <Modal />
+        <DeleteConfirmModal />
       </ThemeContext.Provider>
     </NotesContext.Provider>
   );
