@@ -17,8 +17,8 @@ function DeleteConfirmModal() {
     });
 
     // Logic to set the next note after deletion
-    const nextIndex = currentNoteIndex === 0 ? 0 : currentNoteIndex - 1;
-    setCurrentNote(notes[nextIndex]);
+    const nextIndex = currentNoteIndex === 0 ? 1 : currentNoteIndex - 1;
+    setCurrentNote(() => notes[nextIndex]);
 
     toggleDeleteModal();
   }
