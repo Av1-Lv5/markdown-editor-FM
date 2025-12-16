@@ -1,0 +1,20 @@
+#delete-modal-container.hide {
+  visibility: hidden;
+}
+
+.modal p {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4rem;
+  color: var(--grey);
+  margin-bottom: 1rem;
+}
+
+.modal__description .current-note-title {
+  font-weight: 500;
+  color: var(--orange);
+  background-color: var(--medium-dark-grey);
+  padding: 2px 5px;
+  border-radius: 5px;
+}
